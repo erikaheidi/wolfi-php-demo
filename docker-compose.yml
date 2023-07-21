@@ -2,7 +2,6 @@ version: "3.7"
 services:
   app:
     image: cgr.dev/chainguard/php:latest-fpm
-    entrypoint: /usr/sbin/php-fpm  
     restart: unless-stopped
     working_dir: /app
     volumes:
